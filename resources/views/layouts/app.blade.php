@@ -11,9 +11,9 @@
 
 </head>
 
-<body>
+<body style="background-color: blue;">
 
-    <main>
+    <main style="margin-top: 1rem">
         @yield('content')
     </main>
 </body>
