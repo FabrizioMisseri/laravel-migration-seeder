@@ -12,25 +12,46 @@
                         </h4>
                         <ul>
                             <li>
-                                azienda: {{ $train->azienda }}
+                                <strong>
+
+                                    azienda: {{ $train->azienda }}
+                                </strong>
                             </li>
                             <li>
-                                stazione partenza: {{ $train->stazione_partenza }}
+                                <strong>
+
+                                    stazione partenza: {{ $train->stazione_partenza }}
+                                </strong>
                             </li>
                             <li>
-                                stazione arrivo: {{ $train->stazione_arrivo }}
+                                <strong>
+
+                                    stazione arrivo: {{ $train->stazione_arrivo }}
+                                </strong>
                             </li>
                             <li>
-                                codice treno: {{ $train->codice_treno }}
+                                <strong>
+
+                                    codice treno: {{ $train->codice_treno }}
+                                </strong>
                             </li>
                             <li>
-                                numero carrozze: {{ $train->numero_carrozze }}
+                                <strong>
+
+                                    numero carrozze: {{ $train->numero_carrozze }}
+                                </strong>
                             </li>
                             <li>
-                                orario partenza: {{ $train->orario_partenza }}
+                                <strong>
+
+                                    orario partenza: {{ $train->orario_partenza }}
+                                </strong>
                             </li>
                             <li>
-                                orario arrivo: {{ $train->orario_arrivo }}
+                                <strong>
+
+                                    orario arrivo: {{ $train->orario_arrivo }}
+                                </strong>
                             </li>
                         </ul>
                     </div>
