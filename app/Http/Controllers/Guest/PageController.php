@@ -11,16 +11,8 @@ class PageController extends Controller
 {
     public function index()
     {
-        $currDay = Carbon::today();
-        $nextDay = Carbon::today()->addDay(1);
-        $trains = Train::where('orario_partenza', '>=', $currDay)->where('orario_partenza', '<=', $nextDay)->get();
+        $currDay = Carbon::now();
+        $trains = Train::where('orario_partenza', '>=', $currDay)->get();
         return view('home', compact('trains'));
-    }
-
-    public function today()
-    {
-        $today = Carbon::today();
-        dd($today);
-        return view('home');
     }
 }
